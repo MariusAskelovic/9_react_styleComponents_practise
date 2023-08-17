@@ -1,11 +1,11 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './style/reset.css'
-import App from './App.jsx'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App.jsx';
+import 'font-awesome/css/font-awesome.min.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
   <App />
   // </React.StrictMode>,
-)
+);
