@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Btn = styled.button`
-  height: 56px;
   padding: 16px 28px;
   text-align: center;
   border-radius: 6px;
@@ -11,6 +10,7 @@ export const Btn = styled.button`
   font-family: var(--primary-font);
   font-size: 18px;
   font-weight: 500;
+  margin: auto;
 `;
 
 export const GreenBtn = styled(Btn)`
@@ -30,4 +30,5 @@ export const GreenBtn2 = styled(Btn)`
   padding: 8px 16px;
   color: #f0fdf4;
   font-size: 14px;
+  line-height: 20px;
 `;
