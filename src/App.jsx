@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import GlobalStyle from './components/GlobalStyle';
 import Header from './components/Header';
+import SubHeader from './components/SubHeader';
 
 const Wrap = styled.div`
   margin-left: auto;
@@ -12,6 +13,7 @@ export default function App() {
     <Wrap>
       <GlobalStyle />
       <Header />
+      <SubHeader />
     </Wrap>
   );
 }

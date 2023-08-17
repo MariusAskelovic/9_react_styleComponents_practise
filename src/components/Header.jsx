@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { EmptyBtn, GreenBtn, GreenBtn2 } from './UI/Btn';
+import { EmptyBtn, GreenBtn2 } from './UI/Btn.styled';
 
 const Wrap = styled.div`
   display: flex;
