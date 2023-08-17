@@ -1,14 +1,10 @@
 import styled from 'styled-components';
 
 const Wrap = styled.div`
+  margin: 0;
   display: flex;
   flex-direction: column;
-  background-color: #2a3342;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding-top: 88px;
-  padding-bottom: 88px;
+  gap: 24px;
 `;
 
 const Pill = styled.p`
@@ -18,14 +14,16 @@ const Pill = styled.p`
   background-color: #22c55e;
   color: white;
   text-transform: uppercase;
-  display: inline-block;
   font-size: 12px;
+  margin: 0 auto;
+  width: fit-content;
 `;
 
 const Title = styled.h2`
   color: white;
   font-size: 60px;
   font-weight: 700;
+  margin: 0;
 `;
 
 const Subtitle = styled.p`
@@ -33,6 +31,7 @@ const Subtitle = styled.p`
   font-size: 20px;
   font-weight: 500;
   max-width: 715px;
+  margin: 0;
 `;
 
 export default function SectionTitle() {

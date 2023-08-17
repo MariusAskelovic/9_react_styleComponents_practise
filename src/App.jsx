@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import GlobalStyle from './components/GlobalStyle';
 import Header from './components/Header';
 import SubHeader from './components/SubHeader';
+import Companies from './components/Companies';
 
 const Wrap = styled.div`
   margin-left: auto;
@@ -14,6 +15,7 @@ export default function App() {
       <GlobalStyle />
       <Header />
       <SubHeader />
+      <Companies />
     </Wrap>
   );
 }
